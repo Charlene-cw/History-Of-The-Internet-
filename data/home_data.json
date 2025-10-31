@@ -1,0 +1,16 @@
+[
+    {
+        "head": "TIMELINE OF THE INTERNET",
+        "title": "History Of Academic Networks",
+        "description": "Singapore’s academic network evolved from initial university connections to the advanced SingAREN infrastructure, supporting high-speed data exchange, collaborative research, and global academic partnerships over the past decades.",
+        "link": "academic_network_page.html",
+        "click": "Click for more >>"
+    },
+    {
+        "head": "TIMELINE OF THE INTERNET",
+        "title": "History Of Public WiFi",
+        "description": "Over the past 20 years, Singapore has built a strong public WiFi network that provides widespread, high-speed internet access and supports its Smart Nation vision through expanding free and commercial hotspots across the island.",
+        "link": "public_wifi_page.html",
+        "click": "Click for more >>"
+    }
+]

@@ -1,0 +1,220 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.background-gradient {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #f3e7f6 0%, #f7f4fa 100%);
+    z-index: -1;
+    /* behind everything */
+    pointer-events: none;
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    /* horizontally center */
+    align-items: center;
+    /* vertically center */
+    height: 100vh;
+    /* full viewport height */
+    box-sizing: border-box;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 50px 20px;
+    height: 80vh;
+}
+
+.card {
+    background: #fff;
+    border-radius: 22px;
+    box-shadow: 0 4px 32px rgba(120, 60, 180, 0.12), 0 1.5px 8px 0 rgba(100, 20, 150, 0.07);
+    padding: 2.4rem 2rem 2rem 2rem;
+    max-width: 344px;
+    width: 100%;
+    cursor: pointer;
+    transition: box-shadow 0.22s, transform 0.22s, border 0.22s;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+    min-height: 260px;
+    margin-right: 2rem;
+}
+
+.card:hover {
+    box-shadow: 0 8px 40px 0 rgba(80, 20, 130, 0.14);
+    transform: translateY(-6px) scale(1.032);
+    border: 2px solid #a273d6;
+    background: linear-gradient(120deg, #f6f0fa 50%, #efe2ff 100%);
+}
+
+.card-head {
+    color: #a273d6;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    font-size: 0.90rem;
+    margin-top: 7px;
+    margin-bottom: 1.15rem;
+}
+
+.card-title {
+    color: #342042;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 1px;
+    margin-bottom: 0.7rem;
+}
+
+.card-desc {
+    color: #665682;
+    font-size: 1.00rem;
+    flex-grow: 1;
+    margin-top: 7px;
+}
+
+.card-click {
+    color: #665682;
+    font-size: 1.00rem;
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-left: 215px;
+}
+
+@media (max-width: 950px) {
+    .card-container {
+        flex-wrap: nowrap;
+    }
+
+    .card {
+        min-width: 300px;
+        /* fixed width for horizontal scroll */
+        max-width: 300px;
+    }
+}
+
+/*Responsive css */
+@media (max-width: 600px) {
+    .page-wrapper {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px 2vw;
+        justify-content: flex-start;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        overflow-x: visible;
+        height: auto;
+        gap: 2rem;
+        /*gap between cards*/
+        padding: 0;
+        width: 100%;
+        max-width: 400px;
+        box-sizing: border-box;
+    }
+
+    .card {
+        width: 70vw;
+        max-width: 400px;
+        min-width: 0;
+        transform: none;
+        margin-top: 25px;
+        height: auto;
+    }
+}
+
+/* Home button */
+.home-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 18px;
+    background-color: #FF9F55;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    /* stay on top */
+}
+
+/* Timeline */
+#timeline {
+    position: relative;
+    margin: 40px auto;
+    padding-left: 40px;
+    border-left: 4px solid #FF9F55;
+    /* vertical line */
+    max-width: 600px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+    padding-left: 60px;
+}
+
+.timeline-item .circle {
+    position: absolute;
+    left: -42px;
+    /* half circle width + border width */
+    top: 0;
+    width: 73px;
+    height: 73px;
+    background: white;
+    border: 4px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: inherit;
+    text-align: center;
+}
+
+.timeline-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.pageAN #timeline {
+    border-left-color: #1f87f0;
+}
+
+.pageAN .timeline-item .circle {
+    border-color: #1f87f0;
+    color: #1f87f0;
+}
+
+.pagePW #timeline {
+    border-left-color: #27b736;
+}
+
+.pagePW .timeline-item .circle {
+    border-color: #27b736;
+    color: #27b736;
+}
+
+.timeline-item .content {
+    background: #ffffff;
+    padding: 15px 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

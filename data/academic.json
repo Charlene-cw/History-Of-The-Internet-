@@ -1,0 +1,88 @@
+[
+    {
+        "year": 2005,
+        "title": "Establishment of SingAREN Gigabit Internet Exchange (GIX)",
+        "description": "SingAREN set up the GIX at Global Switch, enabling Singapore’s Research & Education (R&E) community to connect internationally at gigabit speeds."
+    },
+    {
+        "year": 2005,
+        "title": "Joining the TEIN2 Network",
+        "description": "Singapore became part of the high-capacity TEIN2 network linking research and education communities in Asia-Pacific and Europe, with Singapore as a Point of Presence (PoP)."
+    },
+    {
+        "year": 2012,
+        "title": "Launch of eduroam",
+        "description": "SingAREN introduced eduroam, providing secure and seamless WiFi access for students and researchers across participating institutions worldwide, supporting academic mobility."
+    },
+    {
+        "year": 2013,
+        "title": "Campus-wide WiFi at NUS",
+        "description": "In collaboration with Cisco and NCS, NUS deployed over 3,200 access points across campuses and shuttle buses. This flexible high-speed network supported eduroam and became Southeast Asia’s largest education wireless environment."
+    },
+    {
+        "year": 2014,
+        "pic": "data/a_pics/launch-slix.jpg",
+        "title": "Launch of SingAREN Lightwave Internet Exchange (SLIX)",
+        "description": "Southeast Asia’s first 100Gbps R&E network, benefitting Singapore's research community, significantly boosting bandwidth dedicated for research. Singapore’s R&E community gained seamless access to a super high speed network with 100 times more capacity than before."
+    },
+    {
+        "year": 2016,
+        "title": "Launch of Database Mirroring Service",
+        "description": "In collaboration with A*STAR, SingAREN launched the Database Mirroring service, a centralised portal that mirrors major overseas scientific databases locally in Singapore, facilitating collaboration between Singaporean and international research communities."
+    },
+    {
+        "year": 2016,
+        "title": "Launch of Singapore Access Federation (SGAF)",
+        "description": "SGAF is a federated Identity Management System that enables scalable, trusted collaborations among Singapore’s research and education community"
+    },
+    {
+        "year": 2016,
+        "title": "Launch of SingAREN Open Exchange (SOE)",
+        "description": "SingAREN launched SOE to establish a resilient and open Internet Exchange in Singapore to benefit the domestic and international research and education communities. This initiative is co-funded by National Supercomputing Centre (NSCC) Singapore."
+    },
+    {
+        "year": 2019,
+        "title": "SingAREN-Lightwave Internet Exchange 2.0 (SLIX 2.0) Upgrade",
+        "description": "Granted 5 years funding from National Research Foundation (NRF) for phase 2 of SLIX (SLIX 2.0). SLIX 2.0 will address the growing demand for secure, advanced, and reliable network connectivity for Singapore’s research and education community."
+    },
+    {
+        "year": 2021,
+        "pic": "data/a_pics/gbps-links.jpg",
+        "title": "Launch of High-Capacity International Links via KAUST",
+        "description": "The launch of 2 × 100Gbps links from KAUST to SingAREN and to Amsterdam, provides KAUST’s faculty and researchers with global connectivity infrastructure that allows research data to move seamlessly around the globe at high speeds and low costs."
+    },
+    {
+        "year": 2022,
+        "pic": "data/a_pics/solar-powered-campus-WiFi.jpg",
+        "title": "Launch of 5G-powered outdoor WiFi trial at NUS",
+        "description": "Solar-powered outdoor WiFi integrated with StarHub’s 5G network extended seamless indoor and outdoor campus coverage, enhancing digital campus experiences."
+    },
+    {
+        "year": 2023,
+        "pic": "data/a_pics/robot-telesurgery.jpg",
+        "title": "First Remote Robot Telesurgery",
+        "description": "NUS Medicine and NUH remotely performed robotic surgery on a simulated organ in Japan, demonstrating ultra-low latency networking via SingAREN."
+    },
+    {
+        "year": "2016-2023",
+        "title": "NIE’s Transformation into a Digitally Connected Education Hub",
+        "description": "The National Institute of Education (NIE) accelerated its shift towards a fully digital campus, investing in high-speed wireless coverage, cloud-based collaboration tools, interactive smart classrooms, and secure online resource platforms. These upgrades enabled teacher trainees and faculty to access learning materials anytime, anywhere on campus, supporting blended learning and digital pedagogies."
+    },
+    {
+        "year": 2024,
+        "title": "Expansion of SingAREN’s Membership",
+        "description": "Nanyang Polytechnic (NYP), Singapore Institute of Technology (SIT), and Singapore University of Technology and Design (SUTD) joined SingAREN, extending the SLIX fiber footprint beyond NUS, NTU, and SMU."
+    },
+    {
+        "year": 2025,
+        "pic": "data/a_pics/NUS-IOC.jpeg",
+        "title": "Launch of NUS Integrated Operations Centre",
+        "description": "Singapore’s first university-based IOC consolidates real-time campus data on security, emergency services, and building management, reflecting advanced smart campus capabilities."
+    },
+    {
+        "year": "2020–2025",
+        "pic": "data/a_pics/moe-push.jpg",
+        "title": "MOE’s Push for Digital Classrooms and Cloud-Based Learning Tools",
+        "description": "The Ministry of Education (MOE) launched nationwide initiatives to equip schools with digital classrooms, promote one-to-one device access (such as the Personal Learning Device program), and integrate cloud-based platforms (e.g., Student Learning Space, Google Classroom). These advancements allowed seamless collaboration, interactive lessons, and access to digital resources, further driving the demand for robust public and campus WiFi infrastructure."
+    }
+]

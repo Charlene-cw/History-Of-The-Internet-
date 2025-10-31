@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>History Of Public WiFi</title>
+
+  <!-- Libraries -->
+  <script src="lib/p5.min.js"></script>
+  <script src="lib/p5.dom.min.js"></script>
+  <script src="lib/handlebars.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="pagePW">
+  <div class="background-gradient"></div>
+  <button class="home-button" onclick="window.location.href='homepage.html'">Home</button>
+  <div id="timeline"></div>
+  <script id="timeline-template" type="text/x-handlebars-template">
+    {{#each this}}
+    <div class="timeline-item">
+      <div class="circle">{{year}}</div>
+      <div class="content">
+        {{#if pic}}
+          <img src="{{pic}}" alt="Image" />
+        {{/if}}
+        <h3>{{title}}</h3>
+        <p>{{description}}</p>
+      </div>
+    </div>
+    {{/each}}
+  </script>
+  <script src="public-wifi.js"></script>
+</body>
+
+</html>

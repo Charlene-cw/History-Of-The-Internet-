@@ -1,0 +1,39 @@
+[
+    {
+        "year": 2006,
+        "pic": "data/pw_pics/wirelessSG.jpg",
+        "title": "Launch of Wireless@SG",
+        "description": "To provide free, high-speed wireless broadband access in public spaces. Initially targeting areas like shopping malls, schools, hospitals, MRT stations, and community centers, it aimed to promote internet access 'on the go' and bridge the digital divide."
+    },
+    {
+        "year": 2013,
+        "title": "Expansion and Improvement of Wireless@SG",
+        "description": "Evolved with faster internet speeds and more seamless user experience, including easier login via SIM card credentials or the newly launched Wireless@SGx app. By this time, the program had been enhanced to cover a wider range of locations and provide improved reliability."
+    },
+    {
+        "year": 2013,
+        "title": "Campus-wide WiFi integration",
+        "description": "Public WiFi developments aligned with university campus wireless rollouts, such as NUS deploying extensive campus-wide WiFi, supporting both students and public visitors."
+    },
+    {
+        "year": 2013,
+        "title": "Nationwide Fibre Broadband Enables Better Public WiFi",
+        "description": "The completion of fibre broadband deployment across Singapore in 2013 set the foundation for more reliable and higher-capacity public WiFi services."
+    },
+    {
+        "year": "2017-2020",
+        "title": "Wireless@SG Hotspot Growth to 6,500+ Locations",
+        "description": "Wireless@SG hotspots increased to over 6,500 across Singapore, embedding public WiFi coverage deeply into daily urban life including popular commercial and community spaces."
+    },
+    {
+        "year": 2022,
+        "title": "5G-Powered Outdoor WiFi Trials",
+        "pic": "data/pw_pics/solar-powered-campus-WiFi.jpg",
+        "description": "A solar-powered outdoor WiFi network trial, leveraging StarHub’s 5G infrastructure, was launched at NUS campuses, enhancing seamless indoor and outdoor coverage. This initiative demonstrated emerging technologies for resource-efficient, extensive public WiFi."
+    },
+    {
+        "year": "2025 - Present",
+        "title": "Integration with Smart Nation Initiatives",
+        "description": "Public WiFi is increasingly integrated with Singapore’s Smart Nation projects, including smart lampposts and sensors, providing connectivity that supports IoT applications and environmental monitoring."
+    }
+]
